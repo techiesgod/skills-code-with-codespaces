@@ -1,4 +1,5 @@
 {
+  
   "name": "Basic Dev Environment",
   "image": "mcr.microsoft.com/devcontainers/base:debian",
   "features": {
@@ -7,6 +8,7 @@
       "version": "3.10"
     }
   },
+  "postCreateCommand": ".devcontainer/postCreate.sh"
   "customizations": {
     "vscode": {
       "extensions": [
@@ -15,4 +17,5 @@
       ]
     }
   }
+  
 }
